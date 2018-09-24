@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		773AEDA9215869A700D87353 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773AEDA8215869A700D87353 /* main.swift */; };
+		773AEDB021586CB900D87353 /* DungeonCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773AEDAF21586CB900D87353 /* DungeonCharacter.swift */; };
+		773AEDB2215872C000D87353 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773AEDB1215872C000D87353 /* Hero.swift */; };
+		773AEDB42158777100D87353 /* Warrior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773AEDB32158777100D87353 /* Warrior.swift */; };
+		773AEDB621587AD900D87353 /* Sorceress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773AEDB521587AD900D87353 /* Sorceress.swift */; };
+		773AEDB821587D2D00D87353 /* Theif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773AEDB721587D2D00D87353 /* Theif.swift */; };
+		773AEDBA215880C100D87353 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773AEDB9215880C100D87353 /* Monster.swift */; };
+		773AEDBC215883DE00D87353 /* Ogre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773AEDBB215883DE00D87353 /* Ogre.swift */; };
+		773AEDBE2158846900D87353 /* Gremlin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773AEDBD2158846900D87353 /* Gremlin.swift */; };
+		773AEDC0215884B000D87353 /* Skeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773AEDBF215884B000D87353 /* Skeleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +34,15 @@
 /* Begin PBXFileReference section */
 		773AEDA5215869A700D87353 /* PA3_2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PA3_2; sourceTree = BUILT_PRODUCTS_DIR; };
 		773AEDA8215869A700D87353 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		773AEDAF21586CB900D87353 /* DungeonCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonCharacter.swift; sourceTree = "<group>"; };
+		773AEDB1215872C000D87353 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		773AEDB32158777100D87353 /* Warrior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warrior.swift; sourceTree = "<group>"; };
+		773AEDB521587AD900D87353 /* Sorceress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorceress.swift; sourceTree = "<group>"; };
+		773AEDB721587D2D00D87353 /* Theif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theif.swift; sourceTree = "<group>"; };
+		773AEDB9215880C100D87353 /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		773AEDBB215883DE00D87353 /* Ogre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ogre.swift; sourceTree = "<group>"; };
+		773AEDBD2158846900D87353 /* Gremlin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gremlin.swift; sourceTree = "<group>"; };
+		773AEDBF215884B000D87353 /* Skeleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skeleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,15 @@
 			isa = PBXGroup;
 			children = (
 				773AEDA8215869A700D87353 /* main.swift */,
+				773AEDB9215880C100D87353 /* Monster.swift */,
+				773AEDBB215883DE00D87353 /* Ogre.swift */,
+				773AEDBD2158846900D87353 /* Gremlin.swift */,
+				773AEDBF215884B000D87353 /* Skeleton.swift */,
+				773AEDAF21586CB900D87353 /* DungeonCharacter.swift */,
+				773AEDB1215872C000D87353 /* Hero.swift */,
+				773AEDB32158777100D87353 /* Warrior.swift */,
+				773AEDB521587AD900D87353 /* Sorceress.swift */,
+				773AEDB721587D2D00D87353 /* Theif.swift */,
 			);
 			path = PA3_2;
 			sourceTree = "<group>";
@@ -119,7 +146,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				773AEDBE2158846900D87353 /* Gremlin.swift in Sources */,
+				773AEDB021586CB900D87353 /* DungeonCharacter.swift in Sources */,
+				773AEDB621587AD900D87353 /* Sorceress.swift in Sources */,
+				773AEDBC215883DE00D87353 /* Ogre.swift in Sources */,
 				773AEDA9215869A700D87353 /* main.swift in Sources */,
+				773AEDB42158777100D87353 /* Warrior.swift in Sources */,
+				773AEDC0215884B000D87353 /* Skeleton.swift in Sources */,
+				773AEDB821587D2D00D87353 /* Theif.swift in Sources */,
+				773AEDB2215872C000D87353 /* Hero.swift in Sources */,
+				773AEDBA215880C100D87353 /* Monster.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,7 +194,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -218,7 +254,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -242,7 +278,7 @@
 		773AEDAD215869A700D87353 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = GUYPJD4NUE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -252,7 +288,7 @@
 		773AEDAE215869A700D87353 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = GUYPJD4NUE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

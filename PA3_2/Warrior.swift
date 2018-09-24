@@ -19,7 +19,9 @@ class Warrior: Hero {
         let canHit = arc4random_uniform(100) + 1
         if(40 >= canHit){
             let strength = Int(arc4random_uniform(100) + 1)
-            return strength + 75
+            let totalD = strength + 75
+            print("The Crushing Blow did \(totalD) Damage")
+            return totalD
         }
         else{
             print("The Crushing Blow Failed")

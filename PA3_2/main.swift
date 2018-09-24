@@ -31,6 +31,25 @@ print("Hello, World")
 //var hero: Hero = Hero(Hit: 2, Speed: 2, lDamage: 2, hDamage: 3, Chance: 0.8, Blocks: 0.4, Turns: 2)
 //    print(hero.name)
 
-//checks to see if init ask user for name
-var hero: Warrior = Warrior()
-    print(hero.name)
+//checks to see if init ask user for name and testing out special attacks
+//var hero: Warrior = Warrior()
+//    print(hero.name)
+//print(hero.crushingBlow())
+//
+//var hero2: Sorceress = Sorceress()
+//hero2.heal()
+//print(hero2.hitPoints)
+//
+//var hero3: Theif = Theif()
+//hero3.supriseAttack()
+
+var monster: Monster = Monster(Name: "d", Hit: 5, Speed: 5, lDamage: 5, hDamage: 6, Chance: 0.8, healChance: 0.8, lHeal: 20, hHeal: 100)
+monster.heal()
+
+
+
+
+
+
+
+

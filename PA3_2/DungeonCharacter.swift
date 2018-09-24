@@ -29,7 +29,9 @@ class DungeonCharacter{
         if(bigChance > canHit){
             let damRan = UInt32(self.damageRange[1] - self.damageRange[0])
             let hitVal = Int(arc4random_uniform(damRan))
-            return self.damageRange[0] + hitVal
+            let totalD = self.damageRange[0] + hitVal
+            print("The attack worked and did \(totalD) damage")
+            return totalD
         }
         else{
             print("The Attack Failed")
